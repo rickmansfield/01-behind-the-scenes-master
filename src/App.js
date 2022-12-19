@@ -8,6 +8,7 @@ function App() {
   const [showParagraph, setShowParagraph] = useState(false);
   const toggleParagraphHandler = () => { 
     setShowParagraph((prevShowParagraph) => !prevShowParagraph);
+    //could be written as setShowParagraph(!showParagraph);
   };
   return (
     <div className="app">
